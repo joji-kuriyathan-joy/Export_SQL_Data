@@ -1,0 +1,29 @@
+{
+
+  "General": {
+    "Out_File_Path": "path\\Export_SQL_Data_V0.1\\Output",
+    "Log_File_Path": "path\\Export_SQL_Data_V0.1\\Log\\",
+    "Output_Excel_File_Name": "SQL_DATA_$$YYYY-MM-DD-HH-MM-SS$$"
+  },
+  "SQL_Details": {
+    "Connection_Details": {
+        "DBHost": "XXX.XX.XXX.XX",
+        "DB_Name": "DB_NAME",
+        "DBUserName": "USER",
+        "DBPassword": "pass",
+        "DBPort": ""
+      },
+    "Query_List": [
+      "select * from OneM_Rec"
+    ],
+    "Sheet_list": [
+      "MillionRecord"
+    ],
+    "CSV_FileName_List": [
+      "One_Million_Record"
+    ],
+    "Column_Headers": "True",
+    "Delimiter": ",",
+    "Export_Type":"CSV"
+  }
+}

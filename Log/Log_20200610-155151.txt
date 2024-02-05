@@ -1,0 +1,19 @@
+
+====================== Export SQL Data ======================[2020-06-10 15:51:51.585402]
+_________ Config File read successfully (SQL_Config.json).
+_________ Getting Connection for SQL 
+_________ Connecting to SQL Server: XXX.XX.XXX.XX
+_________ Connection Sucessfull.
+_________ Export Type : [Excel] 
+ Start time: 20200610-155151
+ Output Excel file name : path\Export_SQL_Data_V0.1\Output\SQL_DATA_20200610-155151.xlsx
+ Include Column Headers : True
+ Query Execution Start Date: 2020-06-10-15-51-51
+ --------------- Query --------------- 
+select * from OneM_Rec
+ Query Execution End Date: 2020-06-10-15-51-52
+ Populating data Start Date: 2020-06-10-15-51-52
+ Populating data End Date: 2020-06-10-15-51-58
+_________ Excel file Created with sheets : [path\Export_SQL_Data_V0.1\Output\SQL_DATA_20200610-155151.xlsx]
+ End time: 20200610-155206
+====================== END ======================[2020-06-10 15:52:06.815266]
